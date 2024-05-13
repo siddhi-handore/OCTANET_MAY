@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height:10vh;
+    width:100%;
+    position: relative;
+    line-height: 17px;
+}
+ul{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    left:8%;
+}
+ul li{
+    list-style-type: none;
+    padding:20px;
+    line-height: 17px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li.logo{
+    font-family: "Vollkorn", serif;
+}
+li.name{
+    font-size:25px;
+    line-height: 17px;
+}
+li.li-items{
+    font-size:17px;
+}
+button{
+    position:absolute;
+    left:85%;
+    top:25%;
+    padding:5px;
+    height:30px;
+    width:90px;
+    background-color: rgb(53, 216, 162);
+    border: none;
+    font-weight: bold;
+}
+div.container{
+    height: 50vh;
+    width:100%;
+    background-image: url("https://marleyspoon.com/images/ms/how/us/desktop/01_how_main_new-c47cd64c7a.png");
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+    font-family:"Nunito", sans-serif;
+    font-size:35px;
+    text-align:center;
+}
+.container p{
+    position:relative;
+    top:53%;
+    left:0%;
+}
+.recipes{
+    height:55vh;
+    width:100%;
+    position:relative;
+}
+.recipes .box{
+    height:35vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .box1{
+    height:200px;
+    width:250px;
+    background-image:url('https://images.immediate.co.uk/production/volatile/sites/30/2022/03/Quick-dinner-recipes-c7ca11c.jpg?quality=90&webp=true&resize=375,341');
+    background-size: cover;
+    background-position: center;
+    margin:20px;
+    margin-top: 50px;
+}
+.box .box2{
+    height:200px;
+    width:250px;
+    background-image:url('https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/02/25/0/FNK_Chana-Masala_H2_s4x3.jpg.rend.hgtvcom.826.620.suffix/1614271965516.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin:20px;
+    margin-top:50px;
+}
+.box .box3{
+    height:200px;
+    width:250px;
+    background-image:url('https://images.immediate.co.uk/production/volatile/sites/30/2023/09/Prawn-harissa-spaghetti--b3b0fdd.jpg?quality=90&webp=true&resize=375,341');
+    background-size: cover;
+    background-position: center;
+    margin:20px;
+    margin-top: 50px;
+}
+.recipes .names{
+    height:10vh;
+    width:100%;
+    position: relative;
+}
+.names .pasta{
+    position: absolute;
+    top:25%;
+    left:22%;
+    font-size:22px;
+}
+.names .chole{
+    position: absolute;
+    top:25%;
+    left:46%;
+    font-size:22px;
+}
+.names .noddles{
+    position: absolute;
+    top:25%;
+    left:72%;
+    font-size:22px;
+}
+.recipes .para{
+    height:50px;
+    width:80%;
+    font-size:18px;
+    position:absolute;
+    top:82%;
+    left:10%;
+}
