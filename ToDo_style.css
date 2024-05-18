@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F96167;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+.heading{
+    height:20vh;
+    display: flex;
+    margin:20px;
+    margin-left:30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading h1{
+    position: relative;
+    top:5%;
+    font-size:8vh;
+    color: #F9E795;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #F9E795;
+}
+.heading img{
+    position: absolute;
+    top:4%;
+    left:48%;
+    margin:20px;
+    height:80px;
+}
+div.todobox{
+    width:100%;
+    max-width: 500px;
+    background-color: #F9E795;
+    margin: 40px 80px  20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.row{
+    width:360px;
+}
+.row input{
+    background-color: #F9E795;
+    width:350px;
+    height:50px;
+    display:block;
+    border-radius: 20px;
+    border:2px solid #F96167;
+    padding:15px;
+    outline: none;
+    font-size: 17px;
+}
+button{
+    height:40px;
+    width:120px;
+    margin: 20px;
+    position:relative;
+    left:25%;
+    background-color: #F96167;
+    border-radius: 20px;
+    border:none;
+    font-size: 18px;
+    color:#fff;
+    outline:none;
+    cursor: pointer;
+}
+ul li{
+    list-style-type: none;
+    font-size: 18px;
+    padding:8px 8px 12px 50px;
+    position: relative;
+    cursor:pointer;
+}
+ul li::before{
+    content: '';
+    height:19px;
+    width:19px;
+    border-radius: 50%;
+    display: block;
+    background-color: #F96167;
+    position: absolute;
+    left: 4%;
+    top:21%;
+    background-image: url('https://img.freepik.com/free-photo/background_53876-32170.jpg?size=626&ext=jpg');
+    background-size: cover;
+    background-position: center;
+    border:2px solid #F96167;
+    cursor:pointer;
+}
+ul li.checked{
+    color:#555;
+   text-decoration: line-through;
+}
+ul li.checked::before{
+    background-image:url('https://w7.pngwing.com/pngs/888/702/png-transparent-check-mark-computer-icons-a-text-trademark-orange-thumbnail.png');
+    background-size: cover;
+    background-position:center;
+}
+ul li span{
+    position: absolute;
+    top:5%;
+    left: 90%;
+    width: 40px;
+    height:40px;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+ul li span:hover{
+    background-color:#F96167 ;
+    opacity:0.5;
+}
